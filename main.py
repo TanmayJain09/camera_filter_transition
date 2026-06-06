@@ -1,10 +1,10 @@
 from core.camera import Camera
 from core.engine import Engine
-from addons.face_filter_addon import FaceFilterAddon
+from addons.glasses_filter_addon import GlassesFilterAddon
 
 def main():
     camera = Camera(0)
-    addon = FaceFilterAddon()
+    addon = GlassesFilterAddon()
 
     engine = Engine(camera, addon)
     engine.run()
